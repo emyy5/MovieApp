@@ -23,8 +23,8 @@ class MainViewController: UIViewController {
     }
     
     func configView(){
-        self.title = "Main View"
-        self.view.backgroundColor = .systemBackground
+        self.title = "Movies"
+        self.view.backgroundColor = .lightGray
         setUpTableView()
         
     }

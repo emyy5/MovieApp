@@ -11,7 +11,7 @@ extension MainViewController : UITableViewDelegate, UITableViewDataSource{
     func setUpTableView(){
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        self.tableView.backgroundColor = .white
+       // self.tableView.backgroundColor = .systemBackground
         self.registerCells()
     }
     func reloadTableView(){
